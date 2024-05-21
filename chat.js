@@ -18,7 +18,7 @@ async function getChatbotResponse(userInput) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer YOUR_API_KEY'
+            'Authorization': 'Bearer sk-proj-HUc4vw8iJZc5GskUZCDqT3BlbkFJ057QlkD6kCLEtbrC1PK3'
         },
         body: JSON.stringify({
             model: 'gpt-4', // or 'gpt-3.5-turbo'
