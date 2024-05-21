@@ -1,1 +1,1 @@
-This is deep connecigon chatbot
+This is deep connection chatbot
