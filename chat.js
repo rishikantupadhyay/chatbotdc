@@ -21,7 +21,7 @@ async function getChatbotResponse(userInput) {
             'Authorization': 'Bearer sk-proj-HUc4vw8iJZc5GskUZCDqT3BlbkFJ057QlkD6kCLEtbrC1PK3'
         },
         body: JSON.stringify({
-            model: 'gpt-4', // or 'gpt-3.5-turbo'
+            model: 'gpt-3.5-turbo'
             messages: [{ role: 'user', content: userInput }]
         })
     });
